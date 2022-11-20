@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.hero{
+    background-image: url("images/tvm.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 0px 200px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-title{
+    padding: 12px 22px;
+    background: rgb(89, 109, 226);
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 6px;
+}
+.logo-hint{
+    margin-top: 5px;
+    padding: 12px 22px;
+    background: rgb(238, 201, 152);
+    border: none;
+    font-weight: 550;
+    font-size: 16px;
+    color: rgb(64, 162, 215);
+}
+.hero-2{
+    background-color: rgb(181, 209, 201);
+    
+}
+
+
+#heading-2{
+    margin: 0;
+    padding-top: 23px;
+    color: rgb(78, 78, 141);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    
+} 
+
+.box-img{
+    border-radius: 50%;
+    width: 150px;
+}
+.box-img:hover{
+    transform: scale(1.5);
+}
+.box-item{
+    width: 30%;
+    color: rgb(36, 32, 32);
+}
+.box-title{
+    color: rgb(16, 31, 98);
+}
+
+.guide-img{
+    width:150px;
+}
+
+.guide{
+    display: flex;
+    padding: 20px;
+    border: 1px dotted blue;
+    border-bottom: 3px solid rgb(92, 26, 26);
+    color: #2b2839;
+    background:#a3dbdd;
+    border-radius: 4px;
+    margin: 100px auto;
+    justify-content: space-around;
+    width: 600px;
+}
